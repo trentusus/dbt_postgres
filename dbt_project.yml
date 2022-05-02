@@ -26,7 +26,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 vars:
   snowplow_web:
-    snowplow__atomic_schema: "atomic"
+    snowplow__atomic_schema: atomic
     snowplow__database: snowplow
     snowplow__enable_ua: true
     snowplow__enable_yauaa: true
