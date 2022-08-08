@@ -29,7 +29,7 @@ vars:
     snowplow__atomic_schema: atomic
     snowplow__database: snowplow
     snowplow__enable_mobile_context: true
-    snowplow__enable_geolocation_context: true
+    snowplow__enable_geolocation_context: false
     snowplow__enable_application_context: true
     snowplow__enable_screen_context: true
     snowplow__enable_app_errors_module: true
