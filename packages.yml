@@ -2,4 +2,4 @@ packages:
  - package: snowplow/snowplow_web
    version: [">=0.4.1", "<0.6.0"]
  - package: snowplow/snowplow_mobile
-    version: 0.5.1
+   version: ["0.5.1"]
