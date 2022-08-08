@@ -33,6 +33,9 @@ vars:
     snowplow__enable_application_context: true
     snowplow__enable_screen_context: true
     snowplow__enable_app_errors_module: false
+    snowplow__start_date: '2022-04-20'
+    snowplow__app_id: ['salesAndroidApp']
+    
   snowplow_web:
     snowplow__atomic_schema: atomic
     snowplow__database: snowplow
