@@ -3,3 +3,5 @@ packages:
    version: ["0.8.0"]
  - package: snowplow/snowplow_mobile
    version: ["0.5.1"]
+ - package: snowplow/snowplow_media_player
+   version: ["0.3.1"]
