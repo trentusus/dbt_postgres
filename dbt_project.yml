@@ -47,6 +47,7 @@ vars:
     
   snowplow_media_player:
     snowplow__percent_progress_boundaries: [20, 40, 60, 80]
+    snowplow__enable_youtube: true
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
