@@ -25,29 +25,14 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 vars:
-  snowplow_mobile:
-    snowplow__atomic_schema: atomic
-    snowplow__database: snowplow
-    snowplow__enable_mobile_context: true
-    snowplow__enable_geolocation_context: false
-    snowplow__enable_application_context: true
-    snowplow__enable_screen_context: true
-    snowplow__enable_app_errors_module: false
-    snowplow__start_date: '2022-08-01'
-    snowplow__app_id: ['salesAndroidApp']
-    
-  snowplow_web:
-    snowplow__atomic_schema: atomic
+    snowplow_web:
+    snowplow__atomic_schema: atomic.events
     snowplow__database: snowplow
     snowplow__enable_ua: true
     snowplow__enable_yauaa: true
-    snowplow__start_date: '2022-09-15'
-    snowplow__app_id: ['try-snowplow']
+    snowplow__start_date: '2023-09-1'
     snowplow__backfill_limit_days: 60
     
-  snowplow_media_player:
-    snowplow__percent_progress_boundaries: [20, 40, 60, 80]
-    snowplow__enable_youtube: true
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
